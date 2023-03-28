@@ -50,8 +50,15 @@
                 soLuong: soLuong
             },
             success: function (data) {
+                var htmls = `
+					<h3>Thông tin đơn hàng:</h3>
+					<p>Tên hoa : <strong style='color: green'>${data.tenHoa}</strong></p>
+					<p>Số lượng : <strong style='color: blue'>${data.soLuong}</strong></p>
+					<p>Giá bán : <strong style='color: yellow'>${data.donGia}</strong></p>
+					<p>Thành tiền : <strong style='color: violet'>${data.soLuong * data.donGia}</strong></p>
+				`;
                 $(".ketqua").show();
-                $(".ketqua").html(data);
+                $(".ketqua").html(htmls);
             },
             error: function () {
                 alert('Có lỗi xảy ra');

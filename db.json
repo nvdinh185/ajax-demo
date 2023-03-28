@@ -28,6 +28,78 @@
       "donGia": "200000",
       "soLuong": "12",
       "id": 2
+    },
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "12",
+      "id": 3
+    },
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "23",
+      "id": 4
+    },
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "120",
+      "id": 5
+    },
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "55",
+      "id": 6
+    },
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "12",
+      "id": 7
+    },
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "12",
+      "id": 8
+    },
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "12",
+      "id": 9
+    },
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "45",
+      "id": 10
+    },
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "1",
+      "id": 11
+    },
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "12",
+      "id": 12
+    },
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "120",
+      "id": 13
+    },
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "2",
+      "id": 14
     }
   ]
 }
