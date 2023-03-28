@@ -15,5 +15,19 @@
       "name": "Anh",
       "address": "hue"
     }
+  ],
+  "listHoa": [
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "12",
+      "id": 1
+    },
+    {
+      "tenHoa": "Hoa hồng",
+      "donGia": "200000",
+      "soLuong": "12",
+      "id": 2
+    }
   ]
 }
