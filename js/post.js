@@ -19,6 +19,7 @@ $('#create').click(function () {
         complete: function () {
             console.log("Done");
             $("#create").prop("disabled", false);
+            location = 'index.html';
         },
     });
 })

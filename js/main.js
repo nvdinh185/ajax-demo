@@ -6,7 +6,17 @@ $("#getData").click(function () {
         success: function (data) {
             // Success message
             console.log('data: ', data);
-            $('#p').text(data.length);
+            var ulElement = document.querySelector('#list-students');
+
+            var htmls = data.map(function (student) {
+                return `
+                <li>
+                    <h2>Name: ${student.name}</h2>
+                    <p>Address: ${student.address}</p>
+                </li>`;
+            })
+
+            ulElement.innerHTML = htmls;
         },
         error: function (err) {
             // Fail message
@@ -16,4 +26,8 @@ $("#getData").click(function () {
             console.log("Done");
         },
     });
+})
+
+$("#postData").click(function () {
+    location = 'post.html';
 })
