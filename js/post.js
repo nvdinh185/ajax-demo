@@ -1,6 +1,5 @@
 $('#create').click(function () {
-    $this = $("#create");
-    $this.prop("disabled", true);
+    $("#create").prop("disabled", true);
     $.ajax({
         url: "http://localhost:3000/students",
         type: "POST",
@@ -19,7 +18,7 @@ $('#create').click(function () {
         },
         complete: function () {
             console.log("Done");
-            $this.prop("disabled", false);
+            $("#create").prop("disabled", false);
         },
     });
 })
