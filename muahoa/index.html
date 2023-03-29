@@ -62,9 +62,11 @@
             },
             error: function () {
                 alert('Có lỗi xảy ra');
-            }
+            },
+            complete: function () {
+                console.log("Done");
+            },
         });
-        return false;//xử lý xong thì dừng lại luôn
     }
 </script>
 
