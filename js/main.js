@@ -6,7 +6,7 @@ $("#getData").click(function () {
         success: function (data) {
             // Success message
             console.log('data: ', data);
-            var ulElement = $("#list-students")
+            var ulElement = $("#list-students");
 
             var htmls = data.map(function (student) {
                 return `

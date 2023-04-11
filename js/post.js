@@ -1,4 +1,5 @@
-$('#create').click(function () {
+$('#create').click(function (e) {
+    e.preventDefault();
     $("#create").prop("disabled", true);
     $.ajax({
         url: "http://localhost:3000/students",
